@@ -1,8 +1,7 @@
 import 'dart:html' as html;
 
 void openPdf() {
-  html.window.open(
-    'https://athifmhd.web.app/assets/assets/athif21.pdf',
-    '_blank',
-  );
+  final pdfUrl = Uri.base.resolve('assets/assets/athif21.pdf').toString();
+
+  html.window.open(pdfUrl, '_blank');
 }
