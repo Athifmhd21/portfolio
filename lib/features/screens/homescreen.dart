@@ -219,7 +219,7 @@ class _HomeScreenState extends State<HomeScreen> {
         builder: (context, constraints) {
           double width = constraints.maxWidth;
 
-          if (width > 900) {
+          if (width > 899) {
             return desktopView(context);
           } else {
             return mobileView(context);
