@@ -201,6 +201,7 @@ class _HomeScreenState extends State<HomeScreen> {
     },
     {"image": "assets/project2.png", "type": "DESIGNED", "project": "grela"},
     {"image": "assets/project3.png", "type": "DESIGNED", "project": "foodiaq"},
+    {"image": "assets/pendi.png", "type": "DESIGNED", "project": "pendi"},
   ];
 
   // Launch URLs
