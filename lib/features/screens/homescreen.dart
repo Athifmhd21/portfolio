@@ -398,7 +398,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                   ),
                 ),
-                SizedBox(width: 10),
+                SizedBox(width: 19),
                 hireButtonSmall("LET'S TALK", onTap: scrollToContact),
               ],
             ),
