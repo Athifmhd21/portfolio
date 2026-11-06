@@ -378,7 +378,7 @@ class _HomeScreenState extends State<HomeScreen> {
         SafeArea(
           child: Container(
             color: Colors.black,
-            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 12),
+            padding: const EdgeInsets.symmetric(horizontal: 13, vertical: 13),
             child: Row(
               children: [
                 Expanded(
