@@ -416,7 +416,7 @@ class _HomeScreenState extends State<HomeScreen> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text("Hi, I am", style: GoogleFonts.montserrat(fontSize: 18)),
-              const SizedBox(height: 10),
+              const SizedBox(height: 9),
               Text(
                 "Athif Mhd",
                 style: GoogleFonts.montserrat(
