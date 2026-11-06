@@ -424,7 +424,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   fontWeight: FontWeight.bold,
                 ),
               ),
-              const SizedBox(height: 8),
+              const SizedBox(height: 9),
               Text(
                 "Flutter Developer / UI-UX Designer",
                 style: GoogleFonts.montserrat(
