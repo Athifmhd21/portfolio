@@ -420,7 +420,7 @@ class _HomeScreenState extends State<HomeScreen> {
               Text(
                 "Athif Mhd",
                 style: GoogleFonts.montserrat(
-                  fontSize: 36,
+                  fontSize: 37,
                   fontWeight: FontWeight.bold,
                 ),
               ),
