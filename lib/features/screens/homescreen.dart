@@ -497,7 +497,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   "I’ve worked on team-based projects, including leading a design team, and I’m passionate about continuous learning and improving user experiences.",
                   textAlign: TextAlign.center,
                   style: GoogleFonts.montserrat(
-                    fontSize: 16,
+                    fontSize: 15,
                     color: Colors.white70,
                     height: 1.6,
                   ),
