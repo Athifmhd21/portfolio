@@ -428,7 +428,7 @@ class _HomeScreenState extends State<HomeScreen> {
               Text(
                 "Flutter Developer / UI-UX Designer",
                 style: GoogleFonts.montserrat(
-                  fontSize: 14,
+                  fontSize: 15,
                   color: Colors.grey[700],
                 ),
               ),
