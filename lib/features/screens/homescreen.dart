@@ -544,7 +544,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 style: GoogleFonts.montserrat(
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
-                  letterSpacing: 4,
+                  letterSpacing: 3,
                 ),
               ),
             ),
