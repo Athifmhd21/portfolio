@@ -487,7 +487,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   "Detail-oriented Flutter Developer with a strong background in Computer Science and expertise in building user-focused, responsive mobile and web applications. Proven track record in UI/UX design, Flutter development, and API integration. Passionate about clean code, team leadership, and delivering intuitive digital experiences that drive user satisfaction.",
                   textAlign: TextAlign.center,
                   style: GoogleFonts.montserrat(
-                    fontSize: 16,
+                    fontSize: 15,
                     color: Colors.white70,
                     height: 1.6,
                   ),
