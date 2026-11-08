@@ -472,7 +472,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 "ABOUT ME",
                 style: GoogleFonts.montserrat(
                   fontWeight: FontWeight.bold,
-                  letterSpacing: 3,
+                  letterSpacing: 2,
                   color: Colors.white,
                 ),
               ),
