@@ -63,7 +63,7 @@ class PortfolioIntroOverlay extends StatelessWidget {
                 ),
               ),
             ),
-            const SizedBox(height: 28),
+            const SizedBox(height: 30),
             SizedBox(
               width: 150,
               child: AnimatedBuilder(
