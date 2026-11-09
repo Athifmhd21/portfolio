@@ -138,7 +138,7 @@ class _HomeScreenState extends State<HomeScreen>
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(
           content: Text(
-            'Thanks for reaching out! I will get back to you soon.',
+            'Thanks for reaching out! We will get back to you ASAP.',
           ),
           backgroundColor: Colors.green,
         ),
