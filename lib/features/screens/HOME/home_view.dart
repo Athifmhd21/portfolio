@@ -192,7 +192,7 @@ class _HomeScreenState extends State<HomeScreen>
         children: [
           LayoutBuilder(
             builder: (context, constraints) {
-              final isDesktop = constraints.maxWidth > 899;
+              final isDesktop = constraints.maxWidth > 900;
               return SingleChildScrollView(
                 controller: _scrollController,
                 child: Column(
