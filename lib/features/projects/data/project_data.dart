@@ -47,9 +47,9 @@ class ProjectData {
       ),
       ProjectPreview(
         image: 'assets/foodiaq2.png',
-        heading: 'EXPLORE INDIAN CUISINES',
+        heading: 'SIMPLE & TRANSPARENT CHECKOUT',
         description:
-            'Browse through a variety of food categories, from traditional dry snacks and flavourful curries to wholesome thalis.',
+            'Complete your purchase effortlessly with a clear billing summary, where every item, price, and payment detail is displayed right in front of you..',
         highlight: 'SOMETHING FOR EVERY CRAVING',
       ),
       ProjectPreview(
