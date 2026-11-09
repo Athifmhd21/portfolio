@@ -229,7 +229,7 @@ class MobileHeroSection extends StatelessWidget {
                   ),
                 ),
               ),
-              const SizedBox(width: 19),
+              const SizedBox(width: 20),
               HireButtonSmall(text: "LET'S CHAT", onTap: onContact),
             ],
           ),
