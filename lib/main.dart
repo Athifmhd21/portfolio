@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 // import 'package:url_launcher/url_launcher.dart';
-import 'package:portfolio/features/screens/homescreen.dart';
-import 'package:portfolio/features/screens/foodiaQ.dart';
-import 'package:portfolio/features/screens/grelasection.dart';
+import 'package:portfolio/features/screens/HOME/home_view.dart';
 
 void main() {
   runApp(const MyApp());
