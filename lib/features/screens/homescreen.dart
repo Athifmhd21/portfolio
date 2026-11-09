@@ -518,11 +518,11 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   // ================= PORTFOLIO =================
+
   Widget portfolioSection(BuildContext context) {
     double width = MediaQuery.of(context).size.width;
     bool isMobile = width < 800;
 
-    //  FILTER LOGIC
     List<Map<String, String>> filteredProjects = selectedFilter == "ALL"
         ? projects
         : projects.where((p) => p["type"] == selectedFilter).toList();
@@ -531,7 +531,7 @@ class _HomeScreenState extends State<HomeScreen> {
       children: [
         Container(
           width: double.infinity,
-          color: Color(0xFF111111),
+          color: const Color(0xFF111111),
           padding: const EdgeInsets.symmetric(vertical: 60),
           child: Center(
             child: Container(
@@ -566,32 +566,26 @@ class _HomeScreenState extends State<HomeScreen> {
                   filterItem("DESIGNED"),
                 ],
               ),
+
               const SizedBox(height: 50),
 
-              isMobile
-                  ? Column(
-                      children: filteredProjects.map((project) {
-                        return Padding(
-                          padding: const EdgeInsets.only(bottom: 20),
-                          child: projectCard(
-                            imagePath: project["image"]!,
-                            onTap: () => openProject(project),
-                          ),
-                        );
-                      }).toList(),
-                    )
-                  : Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: filteredProjects.map((project) {
-                        return Padding(
-                          padding: const EdgeInsets.symmetric(horizontal: 15),
-                          child: projectCard(
-                            imagePath: project["image"]!,
-                            onTap: () => openProject(project),
-                          ),
-                        );
-                      }).toList(),
-                    ),
+              SizedBox(
+                height: 200,
+                child: SingleChildScrollView(
+                  scrollDirection: Axis.horizontal,
+                  child: Row(
+                    children: filteredProjects.map((project) {
+                      return Padding(
+                        padding: const EdgeInsets.symmetric(horizontal: 15),
+                        child: projectCard(
+                          imagePath: project["image"]!,
+                          onTap: () => openProject(project),
+                        ),
+                      );
+                    }).toList(),
+                  ),
+                ),
+              ),
             ],
           ),
         ),
