@@ -54,9 +54,9 @@ class ProjectData {
       ),
       ProjectPreview(
         image: 'assets/foodiaq3.png',
-        heading: 'DISCOVER HOME CHEFS',
+        heading: 'ELLABORATIVE DESCRIPTIONS',
         description:
-            'Find dishes prepared by home chefs and independent food makers, explore meal details and pricing, and discover homemade food from different regions.',
+            'Each dish is presented with a clear and detailed description, making it easy for users to understand what they are ordering and from where.',
         highlight: 'SUPPORT LOCAL FOOD MAKERS',
       ),
     ],
