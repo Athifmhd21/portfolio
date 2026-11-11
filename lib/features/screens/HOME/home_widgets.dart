@@ -171,7 +171,7 @@ class DesktopHeroSection extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                 ),
               ),
-              const SizedBox(height: 5),
+              const SizedBox(height: 4),
               Text(
                 'Flutter Developer / UI-UX Designer',
                 style: GoogleFonts.montserrat(
