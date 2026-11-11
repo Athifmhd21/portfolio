@@ -88,7 +88,7 @@ class PortfolioIntroOverlay extends StatelessWidget {
                 'WELCOME TO MY PORTFOLIO',
                 style: GoogleFonts.montserrat(
                   color: Colors.white54,
-                  fontSize: 9,
+                  fontSize: 8,
                   letterSpacing: 2,
                 ),
               ),
