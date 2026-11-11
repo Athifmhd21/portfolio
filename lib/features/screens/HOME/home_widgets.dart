@@ -133,7 +133,7 @@ class DesktopHeroSection extends StatelessWidget {
         ),
         if (width >= 1100)
           Positioned(
-            right: 70,
+            right: 71,
             top: 130,
             bottom: 0,
             width: width * .36,
