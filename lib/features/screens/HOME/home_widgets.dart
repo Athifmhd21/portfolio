@@ -163,7 +163,7 @@ class DesktopHeroSection extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text('Hi, I am', style: GoogleFonts.montserrat(fontSize: 24)),
-              const SizedBox(height: 10),
+              const SizedBox(height: 9),
               Text(
                 'Athif Mhd',
                 style: GoogleFonts.montserrat(
