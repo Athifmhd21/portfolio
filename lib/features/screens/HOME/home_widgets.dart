@@ -151,7 +151,7 @@ class DesktopHeroSection extends StatelessWidget {
               NavItem(text: 'Home'),
               NavItem(text: 'Resume', onTap: onResume),
               NavItem(text: 'Portfolio', onTap: onPortfolio),
-              const SizedBox(width: 20),
+              const SizedBox(width: 19),
               HireButton(text: "LET'S TALK", onTap: onContact),
             ],
           ),
