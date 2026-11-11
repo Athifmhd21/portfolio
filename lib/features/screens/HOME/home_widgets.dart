@@ -128,7 +128,7 @@ class DesktopHeroSection extends StatelessWidget {
           bottom: 0,
           child: Transform(
             transform: Matrix4.skewX(-.3),
-            child: Container(width: 420, color: Colors.black),
+            child: Container(width: 419, color: Colors.black),
           ),
         ),
         if (width >= 1100)
