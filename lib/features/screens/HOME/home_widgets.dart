@@ -251,7 +251,7 @@ class MobileHeroSection extends StatelessWidget {
                 fontWeight: FontWeight.bold,
               ),
             ),
-            const SizedBox(height: 9),
+            const SizedBox(height: 10),
             Text(
               'Flutter Developer / UI-UX Designer',
               style: GoogleFonts.montserrat(
