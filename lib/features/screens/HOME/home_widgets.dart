@@ -243,7 +243,7 @@ class MobileHeroSection extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text('Hi, I am', style: GoogleFonts.montserrat(fontSize: 20)),
-            const SizedBox(height: 9),
+            const SizedBox(height: 10),
             Text(
               'Athif Mhd',
               style: GoogleFonts.montserrat(
