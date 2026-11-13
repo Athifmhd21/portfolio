@@ -247,7 +247,7 @@ class MobileHeroSection extends StatelessWidget {
             Text(
               'Athif Mhd',
               style: GoogleFonts.montserrat(
-                fontSize: 37,
+                fontSize: 35,
                 fontWeight: FontWeight.bold,
               ),
             ),
