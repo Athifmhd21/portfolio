@@ -175,7 +175,7 @@ class DesktopHeroSection extends StatelessWidget {
               Text(
                 'Flutter Developer / UI-UX Designer',
                 style: GoogleFonts.montserrat(
-                  fontSize: 18,
+                  fontSize: 19,
                   color: Colors.grey[700],
                 ),
               ),
